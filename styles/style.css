@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100wh;
+}
+
+/* banner section style */
+
+.banner {
+    background-image: url(../images/images/donation7.jpg);
+    background-size: 100vw 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 175px 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-title {
+    color: white;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.banner-sub-title {
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    padding: 30px 100px;
+}
+
+.btn-primary {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 25px;
+    background: #FF5959;
+    border: 0;
+    border-radius: 5px;
+}
